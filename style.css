@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+  line-height: 1.3;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* navigation bar */
+nav {
+  height: 12vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5em;
+}
+h1,
+ul {
+  margin: 0 2em;
+}
+h1 {
+  flex-grow: 5;
+  cursor: pointer;
+}
+ul {
+  flex-grow: 5;
+  display: flex;
+  justify-content: end;
+  gap: 2em;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+/* main */
+
+/* header */
+
+header {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  z-index: 1;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.header-text > h2 {
+  font-size: 3rem;
+}
+.header-text * {
+  margin: 0.5em;
+}
+
+.background {
+  background-image: url('./images/background.jpg');
+  filter: brightness(0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 88vh;
+  z-index: -1;
+}
+
+/* menu especial texto */
+
+.special-menu {
+  background-color: white;
+}
+
+.special-menu-text {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5em;
+  text-align: center;
+  color: #616161;
+}
+.special-menu-text > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.75em;
+  color: #212121;
+}
+
+/* menu especial */
+
+.menu-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background-color: #242424;
+  padding: 4em;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.menu-wrapper > article {
+  width: 300px;
+}
+.menu-wrapper > article > img:hover {
+  filter: brightness(0.7);
+  transition: all 600ms;
+  cursor: pointer;
+}
+.menu-wrapper > article * {
+  margin: 0.75em;
+}
+.menu-wrapper > article > h3 {
+  color: whitesmoke;
+}
+.menu-wrapper > article > p {
+  color: rgb(218, 218, 218);
+}
+
+/* single items */
+.coffee-image {
+  width: 220px;
+}
+
+.btn-menu {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  margin-top: 2em;
+  color: whitesmoke;
+  background-color: #8f5424;
+}
+.btn-menu:hover {
+  transition: all 600ms;
+  background-color: #da843d;
+}
+
+/* landing---------------------------------- */
+
+/* drinks */
+
+.menu-drinks {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.menu-drinks-text {
+  width: 450px;
+  color: #616161;
+}
+.menu-drinks-text > h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  color: #212121;
+}
+
+.menu-coffee {
+  display: flex;
+  background-color: #242424;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 4em;
+}
+
+.menu-coffee > article {
+  width: 250px;
+  text-align: center;
+}
+.menu-coffee > article > * {
+  margin: 1em 0;
+}
+
+.menu-coffee > article > p {
+  color: rgb(221, 221, 221);
+}
+
+.menu-coffee > article > .price-text {
+  color: #fdb445;
+}
+
+/* food */
+
+.menu-food {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.menu-food-text {
+  width: 450px;
+  color: #616161;
+}
+.menu-food-text > h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  color: #212121;
+}
+
+.menu-pastries {
+  display: flex;
+  background-color: #242424;
+  color: whitesmoke;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 4em;
+}
+
+.menu-pastries > article {
+  width: 250px;
+  text-align: center;
+}
+.menu-pastries > article > * {
+  margin: 1em 0;
+}
+.menu-pastries > article > p {
+  color: rgb(221, 221, 221);
+}
+
+.menu-pastries > article > .price-text {
+  color: #fdb445;
+}

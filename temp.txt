@@ -1,0 +1,41 @@
+landing -------------------
+
+ <header>
+        <div class="background">
+        </div>
+        <div class="header-text">
+          <h2>COFFEE HOUSE</h2>
+          <h4>Serving only the best since 2013</h4>
+          <button class="btn-menu ">Full menu</button>
+        </div>
+      </header>
+      <!-- contenido que cambiará con javascript -->
+      <section class="special-menu">
+        <div class="special-menu-text">
+          <h2>We Believe In Coffee That Tastes Incredible</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo.</p>
+        </div>
+        <div class="menu-wrapper">
+          <article>
+            <img class="coffee-image" src="./images/coffee-item-2.png" alt="">
+            <h3>MOCHA LATTE</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+          </article>
+          <article>
+            <img class="coffee-image" src="./images/coffee-item-1.png" alt="">
+            <h3>POUR OVER</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+          </article>
+          <article>
+            <img class="coffee-image" src="./images/coffee-item-3.png" alt="">
+            <h3>ESPRESSO</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+          </article>
+        </div>
+       </section>
+      
+
+
+home -----------------
+
