@@ -87,7 +87,7 @@ header {
 .special-menu-text {
   width: 60%;
   margin: 0 auto;
-  padding: 3em;
+  padding: 5em;
   text-align: center;
   color: #616161;
 }
@@ -133,17 +133,113 @@ header {
 
 .btn-menu {
   padding: 0.5em 1em;
-  font-size: 1.0rem;
+  font-size: 1rem;
   cursor: pointer;
   display: block;
   margin: 0 auto;
   border: none;
   margin-top: 2em;
   color: whitesmoke;
-  background-color: #8f5424;  
+  background-color: #8f5424;
 }
 .btn-menu:hover {
   transition: all 600ms;
   background-color: #da843d;
+}
 
+/* landing---------------------------------- */
+
+/* drinks */
+
+.menu-drinks {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.menu-drinks-text {
+  width: 450px;
+  color: #616161;
+}
+.menu-drinks-text > h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  color: #212121;
+}
+
+.menu-coffee {
+  display: flex;
+  background-color: #242424;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 4em;
+}
+
+.menu-coffee > article {
+  width: 250px;
+  text-align: center;
+}
+.menu-coffee > article > * {
+  margin: 1em 0;
+}
+
+.menu-coffee > article > p {
+  color: rgb(221, 221, 221);
+}
+
+.menu-coffee > article > .price-text {
+  color: #fdb445;
+}
+
+/* food */
+
+.menu-food {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.menu-food-text {
+  width: 450px;
+  color: #616161;
+}
+.menu-food-text > h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+  color: #212121;
+}
+
+.menu-pastries {
+  display: flex;
+  background-color: #242424;
+  color: whitesmoke;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.5em;
+  padding: 4em;
+}
+
+.menu-pastries > article {
+  width: 250px;
+  text-align: center;
+}
+.menu-pastries > article > * {
+  margin: 1em 0;
+}
+.menu-pastries > article > p {
+  color: rgb(221, 221, 221);
+}
+
+.menu-pastries > article > .price-text {
+  color: #fdb445;
 }
