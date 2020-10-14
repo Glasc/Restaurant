@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Glasc/Restaurant/issues"
   },
-  "homepage": "https://github.com/Glasc/Restaurant#readme",
+  "homepage": ".",
   "devDependencies": {
     "webpack": "^5.1.0",
     "webpack-cli": "^4.0.0"
