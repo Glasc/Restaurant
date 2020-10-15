@@ -51,7 +51,6 @@ li:hover {
   background-color: #ffb74d;
 }
 
-
 /* main */
 
 /* header */
@@ -296,14 +295,14 @@ textarea {
 
 .opinion-wrapper {
   margin: 2em;
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   gap: 1em;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .opinion {
-  background-color: whitesmoke;
+  background-color: white;
   width: 300px;
   padding: 1em;
 }
@@ -317,7 +316,6 @@ textarea {
   box-shadow: 0 8px 6px -6px black;
   transition: all 600ms;
 }
-
 
 @media (max-width: 680px) {
   nav {
@@ -335,7 +333,6 @@ textarea {
   }
 }
 @media (max-width: 455px) {
- 
   h1 {
     min-width: 95px;
     margin: 0;
