@@ -304,6 +304,7 @@ textarea {
 .opinion {
   background-color: #fff176;
   width: 300px;
+  box-shadow: 0 8px 6px -6px black;
   padding: 1em;
 }
 .opinion * {
@@ -313,7 +314,7 @@ textarea {
 .opinion:hover {
   filter: brightness(0.9);
   cursor: pointer;
-  box-shadow: 0 8px 6px -6px black;
+
   transition: all 600ms;
 }
 
