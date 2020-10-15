@@ -13,7 +13,7 @@ const view = {
       <div class="header-text">
         <h2>El Cofy</h2>
         <h4>Servimos lo mejor desde el 2003</h4>
-        <button class="btn-menu">Menu completo</button>
+        <button class="btn-menu">Menú completo</button>
       </div>
     </header>
     <!-- contenido que cambiará con javascript -->
@@ -161,7 +161,7 @@ const view = {
     `
     );
   },
-  showOpinions() {
+  showOpiniones() {
     const opinionWrapper = document.querySelector('.opinion-wrapper');
     opinionWrapper.innerHTML = '';
 

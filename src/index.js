@@ -25,8 +25,8 @@ const btnMenu = document.querySelector('.btn-menu');
       });
     } else if (menuSelected === 'Menu') {
       controller.showMenu();
-    } else if (menuSelected === 'Opinions') {
-      controller.showOpinions();
+    } else if (menuSelected === 'Opiniones') {
+      controller.showOpiniones();
     }
   });
 });

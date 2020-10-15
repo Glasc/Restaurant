@@ -13,9 +13,9 @@ const controller = {
   showMenu() {
     view.showMenu();
   },
-  showOpinions() {
+  showOpiniones() {
     view.showForm();
-    view.showOpinions();
+    view.showOpiniones();
     const form = document.querySelector('form');
 
     form.addEventListener('submit', (e) => {
@@ -23,7 +23,8 @@ const controller = {
       let name = form.nombre.value;
       let comment = form.resenia.value;
       model.createDocument(name, comment);
-      view.showOpinions();
+      view.showOpiniones();
+      form.reset();
     });
   },
 };
