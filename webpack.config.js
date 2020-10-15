@@ -6,4 +6,5 @@ module.exports = {
     filename: 'main.js',
     publicPath: '/Restaurante/',
   },
+  devtool: false,
 };
