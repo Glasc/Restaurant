@@ -295,14 +295,14 @@ textarea {
 
 .opinion-wrapper {
   margin: 2em;
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   gap: 1em;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .opinion {
-  background-color: white;
+  background-color: #fff176;
   width: 300px;
   padding: 1em;
 }
