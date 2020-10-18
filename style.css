@@ -306,6 +306,7 @@ textarea {
   width: 300px;
   box-shadow: 0 8px 6px -6px black;
   padding: 1em;
+  word-break: break-all;
 }
 .opinion * {
   margin: 0.4em;
